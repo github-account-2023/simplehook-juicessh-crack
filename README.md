@@ -5,3 +5,8 @@
 - 在 `com.sonelli.juicessh.activities` 的 `MainActivity` 中 找到 `const v1,0x7f1103eb`
 - 在 `classes.dex` 找 哪個東西 用了 `com.sonelli.juicessh.activities` 的 `MainActivity`
 - 找到後把返回結果強制改成 `true`
+
+### 結果
+- 由以上方法得出在 class `com.sonelli.oi0` 中的 `d(Ljava.lang.Object;)` 來知道是不是 Pro
+- 因為要谷歌登入, 所以不直接改smali
+- 利用 `simplehook` 把 `com.sonelli.oi0` 的 method `d` 和 param `java.lang.Object` 的返回 改成 `true`
