@@ -1,7 +1,7 @@
 {
    "appName":"JuiceSSH",
    "configs":"[{\"className\":\"com.sonelli.oi0\",\"enable\":true,\"fieldClassName\":\"\",\"fieldName\":\"\",\"hookPoint\":\"after\",\"methodName\":\"d\",\"mode\":0,\"params\":\"java.lang.Object\",\"resultValues\":\"true\",\"returnClassName\":\"\"}]",
-   "description":"Crack by Hailey",
+   "description":"Cracked by Hailey",
    "enable":true,
    "id":1,
    "packageName":"com.sonelli.juicessh",
